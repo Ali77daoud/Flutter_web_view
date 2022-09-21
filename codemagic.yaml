@@ -20,4 +20,7 @@ workflows:
       - '*.snap'
       - build/windows/**/*.msix
       - flutter_drive.log
-
+    publishing:
+      email:
+        recipients:
+          - ali.daoudsy77@gmail.com
