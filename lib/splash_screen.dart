@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    Timer(const Duration(seconds: 4), () => goToHomeScreen());
+    Timer(const Duration(seconds: 5), () => goToHomeScreen());
   }
 
   goToHomeScreen() {
@@ -65,13 +65,19 @@ class _SplashScreenState extends State<SplashScreen> {
                   width: 200,
                 ),
               ),
-              const Text(
-                'Aleppian Restaurant',
-                style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20),
+              Center(
+                child: Image.asset(
+                  'assets/images/aleppian.png',
+                  width: 180,
+                ),
               ),
+              // const Text(
+              //   'Aleppian Restaurant',
+              //   style: TextStyle(
+              //       color: Colors.white,
+              //       fontWeight: FontWeight.bold,
+              //       fontSize: 20),
+              // ),
               SizedBox(
                 height: h * 0.1,
               ),
