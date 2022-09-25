@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    Timer(const Duration(seconds: 5), () => goToHomeScreen());
+    // Timer(const Duration(seconds: 5), () => goToHomeScreen());
   }
 
   goToHomeScreen() {
@@ -64,6 +64,9 @@ class _SplashScreenState extends State<SplashScreen> {
                   'assets/images/aleppian_logo.png',
                   width: 200,
                 ),
+              ),
+              SizedBox(
+                height: h * 0.05,
               ),
               Center(
                 child: Image.asset(
