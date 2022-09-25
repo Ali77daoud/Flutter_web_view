@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    // Timer(const Duration(seconds: 5), () => goToHomeScreen());
+    Timer(const Duration(seconds: 5), () => goToHomeScreen());
   }
 
   goToHomeScreen() {
